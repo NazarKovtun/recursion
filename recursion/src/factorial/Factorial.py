@@ -6,5 +6,5 @@ class Factorial(ABC):
     Abstract object Factorial
     """
     @abstractmethod
-    def f(self, n: int) -> int:
+    def find_fac(self, n: int) -> int:
         raise NotImplementedError

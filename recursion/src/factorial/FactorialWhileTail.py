@@ -5,7 +5,7 @@ class FactorialWhileTail(Factorial):
     """
     Object Factorial that using the while tail loop
     """
-    def f(self, n: int) -> int:
+    def find_fac(self, n: int) -> int:
         if n == 0:
             return 0
 
